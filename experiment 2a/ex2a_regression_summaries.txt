@@ -1,0 +1,53 @@
+=== OLS: BART collective ~ BART distributive ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        bart_collective   R-squared:                       0.508
+Model:                            OLS   Adj. R-squared:                  0.496
+Method:                 Least Squares   F-statistic:                     39.31
+Date:                Tue, 26 Aug 2025   Prob (F-statistic):           2.43e-07
+Time:                        04:51:43   Log-Likelihood:                 16.812
+No. Observations:                  40   AIC:                            -29.62
+Df Residuals:                      38   BIC:                            -26.25
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const                 0.0854      0.057      1.497      0.143      -0.030       0.201
+bart_distributive     0.6644      0.106      6.270      0.000       0.450       0.879
+==============================================================================
+Omnibus:                        4.880   Durbin-Watson:                   1.963
+Prob(Omnibus):                  0.087   Jarque-Bera (JB):                3.537
+Skew:                           0.644   Prob(JB):                        0.171
+Kurtosis:                       3.679   Cond. No.                         5.10
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+=== OLS: RoBERTa collective ~ RoBERTa distributive ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     roberta_collective   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                 -0.023
+Method:                 Least Squares   F-statistic:                    0.1411
+Date:                Tue, 26 Aug 2025   Prob (F-statistic):              0.709
+Time:                        04:51:43   Log-Likelihood:                 24.272
+No. Observations:                  40   AIC:                            -44.54
+Df Residuals:                      38   BIC:                            -41.17
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                    0.1897      0.076      2.509      0.016       0.037       0.343
+roberta_distributive     0.0443      0.118      0.376      0.709      -0.195       0.283
+==============================================================================
+Omnibus:                        4.714   Durbin-Watson:                   1.621
+Prob(Omnibus):                  0.095   Jarque-Bera (JB):                4.467
+Skew:                           0.773   Prob(JB):                        0.107
+Kurtosis:                       2.463   Cond. No.                         7.65
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
