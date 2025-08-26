@@ -1,0 +1,19 @@
+Type,Verb,Sentence,Sentence_symmetric,Results_large,Results_small
+1,envy,The children envied each other.,Every child envied every other child.,0.8650892972946167,0.8335413336753845
+1,know,The children knew each other.,Every child knew every other child.,0.7271841764450073,0.7446908950805664
+1,understand,The children understood each other.,Every child understood every other child.,0.7785515785217285,0.793310821056366
+1,admire,The children admired each other.,Every child admired every other child.,0.8201314806938171,0.7907865643501282
+1,miss,The children missed each other.,Every child missed every other child.,0.7471342086791992,0.7390236258506775
+1,hate,The children hated each other.,Every child hated every other child.,0.8045239448547363,0.8290250897407532
+2,pinch,The children pinched each other.,Every child pinched every other child.,0.8233355283737183,0.841699481010437
+2,hit,The children hit each other.,Every child hit every other child.,0.7944889068603516,0.7684916257858276
+2,caress,The children caressed each other.,Every child caressed every other child.,0.8136917352676392,0.8157274127006531
+2,stab,The children stabbed each other.,Every child stabbed every other child.,0.8207331299781799,0.8279457092285156
+2,shoot,The children shot each other.,Every child shot every other child.,0.7347959280014038,0.7974543571472168
+2,grab,The children grabbed each other.,Every child grabbed every other child.,0.8538614511489868,0.7892796993255615
+3,kiss,The children kissed each other.,Every child kissed every other child.,0.8063163757324219,0.7813030481338501
+3,dress,The children dressed each other.,Every child dressed every other child.,0.7953002452850342,0.7491376399993896
+3,kick,The children kicked each other.,Every child kicked every other child.,0.8016629219055176,0.8160768747329712
+3,lash out,The children lashed out each other.,Every child lashed out every other child.,0.8285199403762817,0.8263258934020996
+3,bite,The children bit each other.,Every child bit every other child.,0.8016728758811951,0.7794381380081177
+3,lick,The children licked each other.,Every child licked every other child.,0.8548708558082581,0.8291341066360474
